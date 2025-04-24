@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الرئيسية</title>
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/media.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header id="header">
+    <nav class="d-none d-lg-flex">
+      <ul>
+        <li class="open_menu">
+          <a href="../index.html">الرئيسية</a>
+          <ul class="sec_menu">
+            <li><a href="../index.html#sections">لوحة التحكم</a></li>
+            <li><a href="registration.html">تسجيل موظف</a></li>
+
+          </ul>
+        </li>
+
+        <li class="open_menu"><a href="about_rmooz.html">عن رموز</a>
+          <ul class="sec_menu">
+            <li><a href="about_rmooz.html#about">الهدف والرسالة</a></li>
+            <li><a href="about_rmooz.html#corners">زوايا الروضة</a></li>
+            <li><a href="about_rmooz.html#method">المنهجية</a></li>
+          </ul>
+        </li>
+
+        <li class="open_menu"><a href="open_file.html">فتح ملف جديد</a>
+          <ul class="sec_menu">
+            <li><a href="open_file.html">بيانات الطفل</a></li>
+            <li><a href="contact.html">بيانات التسجيل ومعلومات التواصل</a></li>
+            <li><a href="behavior.html">السلوك والانشطة</a></li>
+            <li><a href="prog.html">أداء الطفل</a></li>
+          </ul>
+        </li>
+        <li><a href="contact_wit_us.html">تواصل معنا</a></li>
+      </ul>
+      <img src="../assets/images/1.1.jpg">
+    </nav>
+
+
+
+    <!-- Nav Bar for Mobile Screens -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top d-lg-none p-1" style="background-color: hsl(300, 100%, 97%,.6);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">رموز</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="../assets/images/1.1.jpg">
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  الرئيسية
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../index.html#sections">لوحة التحكم</a></li>
+                  <li><a class="dropdown-item" href="registration.html">تسجيل موظف</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  عن رموز
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="about_rmooz.html#about">الهدف والرسالة</a></li>
+                  <li><a class="dropdown-item" href="about_rmooz.html#corners">زوايا الروضة</a></li>
+                  <li><a class="dropdown-item" href="about_rmooz.html#method">المنهجية</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  فتح ملف جديد
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="open_file.html">بيانات الطفل</a></li>
+                  <li><a class="dropdown-item" href="contact.html">بيانات التسجيل ومعلومات التواصل</a></li>
+                  <li><a class="dropdown-item" href="behavior.html">السلوك والانشطة</a></li>
+                  <li><a class="dropdown-item" href="prog.html">أداء الطفل</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="contact_wit_us.html">تواصل معنا</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!---------------------------------------------------------------------------------------->
+
+    <section id="hero">
+        <ul>
+            <li><a href="open_file.html">بيانات الطفل</a></li>
+            <li><a href="contact.html">بيانات التسجيل ومعلومات التواصل</a></li>
+            <li><a href="behavior.html">السلوك والانشطة</a></li>
+            <li><a href="prog.html">أداء الطفل</a></li>
+        </ul>
+
+        <div class="child_info">
+            <form action="">
+                <div>
+                    <label for="grade">المرحلة *</label>
+                    <select id="grade" name="grade" required>
+                        <option value="KG0">KG0</option>
+                        <option value="KG1">KG1</option>
+                        <option value="KG2">KG2</option>
+                    </select>
+                </div>
+
+      
+                <div>
+                    <label for="time">نوع الدوام *</label>
+                    <select id="time" name="time" required>
+                        <option value="صباحي">صباحي</option>
+                        <option value="مسائي">مسائي</option>
+                        <option value="كامل">كامل</option>
+                    </select>
+                </div>  
+
+                <div>
+                    <label for="tel"> رقم الهاتف</label>
+                    <input type="tel" placeholder="أدخل رقم الهاتف " id="tel" name="tel" >
+                </div>
+
+                <div>
+                    <label for="mob1">رقم الجوال 1*</label>
+                    <input type="text" placeholder="أدخل رقم الجوال" id="mob1" name="mob1" required>
+                </div>
+
+                <div>
+                    <label for="email">البريد الالكتروني</label>
+                    <input type="email" placeholder="أدخل البريد الالكتروني" id="email" name="email" >
+                </div>
+
+                <div>
+                    <label for="date_of_reg">تاريخ الالتحاق</label>
+                    <input type="date" id="date_of_reg" name="date_of_reg" required>
+                </div>
+
+           
+                
+                <div>
+                    <label for="transport"> وسيلة النقل*</label>
+                    <select id="transport" name="transport" required>
+                        <option value="باص">باص</option>
+                        <option value="سيارة">سيارة</option>
+                        <option value="اخرى">اخرى</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="instructor">المعلم المسؤول</label>
+                    <textarea id="instructor" name="instructor"></textarea>
+                </div>
+            </form></div></section>
+
+                <section id="health_info">
+                    <h3> المتابعة والتواصل</h3>
+
+                    <div class="health">
+                        <p>الشخص المسؤول عن متابعة الطفل أكاديميًا</p>
+                        <div>
+                            <input type="radio" name="status">ام
+                            <input type="radio" name="status">اب
+                            <input type="radio" name="status">اشقاء
+                            <input type="radio" name="status">اخرى
+                        </div>
+                    </div>
+
+                    <div class="health">
+                        <p>أفضل طريقة للتواصل مع الأهل</p>
+                        <div>
+                            <input type="radio" name="status">اتصال&sms
+                            <input type="radio" name="status">واتساب
+                            <input type="radio" name="status">بريد الكتروني
+                        </div>
+                    </div>
+                    <div class="health">
+                        <p>أوقات مناسبة للتواصل مع الأهل</p>
+                        <div>
+                            <input type="radio" name="contact" value="صباحًا"> صباحًا (8-11 صباحًا)
+                            <input type="radio" name="contact" value="ظهرًا"> ظهرًا (12-3 ظهرًا)
+                            <input type="radio" name="contact" value="مساءً"> مساءً (بعد 4 مساءً)
+                        </div>
+                    </div></section>
+<!------------------------------------------------------------------------------------------>
+<footer>
+    <p> created by layal &copy; 2025 |جميع الحقوق محفوظة </p>
+    <div>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+    </div>
+</footer>
+<script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
